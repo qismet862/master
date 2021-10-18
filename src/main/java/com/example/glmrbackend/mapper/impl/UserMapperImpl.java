@@ -13,6 +13,7 @@ public class UserMapperImpl implements UserMapper {
         if (registerRequestDto == null) {
             return null;
         }
+        //
         User user = new User();
         user.setGender(registerRequestDto.getGender());
         user.setProfilePicture(registerRequestDto.getProfilePicture());
